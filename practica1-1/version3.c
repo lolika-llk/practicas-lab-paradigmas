@@ -3,6 +3,6 @@
 int i;
 main(){
     while(i<14){
-        write(0,i+++"hello, world!\n"[i],1);
+        write(1,i+++"hello, world!\n"[i],1);
     }
 }

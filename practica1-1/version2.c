@@ -7,5 +7,5 @@ main(){
 }
 read(j,i,p){//no se puede usar el nombre read para la funcion porque en la libreria unistd hay una funcion con ese nombre
 
-    write(0,i---j,1);//las operaciones siempre dan lo mismo, se necesita la libreria unistd
+    write(1,i---j,1);//las operaciones siempre dan lo mismo, se necesita la libreria unistd
 }
